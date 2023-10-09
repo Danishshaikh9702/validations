@@ -1,6 +1,6 @@
 {
   "name": "@danishshaikh9702/validations",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "src/validation/index.js",
   "publishConfig": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build":"tsc",
-    "start":"npm run build && node dist/index.js",
+    "start":"npm run build && node dist/validation/index.js",
     "test":"ts-node src/validation/example.ts"
   },
   "keywords": [],

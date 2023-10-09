@@ -27,7 +27,7 @@ class Validation {
         return dlRegex.test(DLNumber);
     }
     aadharCardNumber(aadharNumber) {
-        const trimAadharNumber = aadharNumber.split(' ').join('');
+        const trimAadharNumber = aadharNumber.toString().split(' ').join('');
         const aadharRegex = /^(\d{12})$/;
         return aadharRegex.test(trimAadharNumber);
     }

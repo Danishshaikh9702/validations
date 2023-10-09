@@ -33,8 +33,8 @@ class Validation implements ValidationInterface {
         return dlRegex.test(DLNumber);
     }
 
-   public aadharCardNumber(aadharNumber: string): boolean {
-        const trimAadharNumber=aadharNumber.split(' ').join('')
+   public aadharCardNumber(aadharNumber: string | number): boolean {
+        const trimAadharNumber= aadharNumber.toString().split(' ').join('')
         const aadharRegex = /^(\d{12})$/;
         return aadharRegex.test(trimAadharNumber);
     }  
