@@ -1,4 +1,6 @@
-class Validation {
+import { ValidationInterface } from "./type";
+
+class Validation implements ValidationInterface {
     
     email(email:string): boolean{
         const emailRegex: RegExp = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
@@ -36,7 +38,7 @@ class Validation {
         const aadharRegex = /^(\d{12})$/;
         return aadharRegex.test(trimAadharNumber);
     }  
-    
+
 }
 const validation=new Validation()
 export default validation 

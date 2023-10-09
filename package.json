@@ -8,6 +8,8 @@
   },
   "scripts": {
     "start": "ts-node src/index.ts",
+    "build":"tsc",
+    "convert":"npm run build && node dist/index.js",
     "test":"ts-node src/validation/example.ts"
   },
   "keywords": [],
