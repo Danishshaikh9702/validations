@@ -1,13 +1,13 @@
 {
   "name": "@danishshaikh9702/validations",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github/@danishshaikh9702"
   },
   "scripts": {
-    "start": "ts-node src/index.ts",
+    "start": "npm run convert && ts-node src/index.ts",
     "build":"tsc",
     "convert":"npm run build && node dist/index.js",
     "test":"ts-node src/validation/example.ts"

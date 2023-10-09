@@ -44,11 +44,11 @@ const validDL3: string = 'MH-04 20170056170'; // Format: "MH-04 20170056170"
 const validDL4: string = 'MH04 20170056170';  // Format: "MH04 20170056170"
 const invalidDL: string = 'InvalidDL123'; // Invalid format
 
-console.log(`Driving License Validation: ${validation.drivingLisence(validDL1)}`); // true
-console.log(`Driving License Validation: ${validation.drivingLisence(validDL2)}`); // true
-console.log(`Driving License Validation: ${validation.drivingLisence(validDL3)}`); // true
-console.log(`Driving License Validation: ${validation.drivingLisence(validDL4)}`); // true
-console.log(`Driving License Validation: ${validation.drivingLisence(invalidDL)}`); // false
+console.log(`Driving License Validation: ${validation.drivingLicense (validDL1)}`); // true
+console.log(`Driving License Validation: ${validation.drivingLicense (validDL2)}`); // true
+console.log(`Driving License Validation: ${validation.drivingLicense (validDL3)}`); // true
+console.log(`Driving License Validation: ${validation.drivingLicense (validDL4)}`); // true
+console.log(`Driving License Validation: ${validation.drivingLicense (invalidDL)}`); // false
 
 const aadharValid1 = '1232 1223 1123';
 const aadharValid2 = '11 12 22 22 22 22';

@@ -36,11 +36,11 @@ const validDL2 = 'MH-0420170056170'; // Format: "MH-0420170056170"
 const validDL3 = 'MH-04 20170056170'; // Format: "MH-04 20170056170"
 const validDL4 = 'MH04 20170056170'; // Format: "MH04 20170056170"
 const invalidDL = 'InvalidDL123'; // Invalid format
-console.log(`Driving License Validation: ${index_1.default.drivingLisence(validDL1)}`); // true
-console.log(`Driving License Validation: ${index_1.default.drivingLisence(validDL2)}`); // true
-console.log(`Driving License Validation: ${index_1.default.drivingLisence(validDL3)}`); // true
-console.log(`Driving License Validation: ${index_1.default.drivingLisence(validDL4)}`); // true
-console.log(`Driving License Validation: ${index_1.default.drivingLisence(invalidDL)}`); // false
+console.log(`Driving License Validation: ${index_1.default.drivingLicense(validDL1)}`); // true
+console.log(`Driving License Validation: ${index_1.default.drivingLicense(validDL2)}`); // true
+console.log(`Driving License Validation: ${index_1.default.drivingLicense(validDL3)}`); // true
+console.log(`Driving License Validation: ${index_1.default.drivingLicense(validDL4)}`); // true
+console.log(`Driving License Validation: ${index_1.default.drivingLicense(invalidDL)}`); // false
 const aadharValid1 = '1232 1223 1123';
 const aadharValid2 = '11 12 22 22 22 22';
 const aadharValid3 = '123456789012';

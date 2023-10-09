@@ -22,7 +22,7 @@ class Validation {
         const ifscRegex = /^[A-Z]{4}[0][A-Z0-9]{6}$/;
         return ifscRegex.test(ifscCode);
     }
-    drivingLisence(DLNumber) {
+    drivingLicense(DLNumber) {
         let dlRegex = new RegExp(/^(([A-Z]{2}[0-9]{2})( )|([A-Z]{2}-[0-9]{2}))((19|20)[0-9][0-9])[0-9]{7}$/);
         return dlRegex.test(DLNumber);
     }
