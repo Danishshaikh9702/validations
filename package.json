@@ -1,0 +1,19 @@
+{
+  "name": "validations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github/@danishshaikh9702"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test":"ts-node src/validation/example.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
