@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.validation = void 0;
 class Validation {
     email(email) {
         const emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
@@ -32,5 +33,4 @@ class Validation {
         return aadharRegex.test(trimAadharNumber);
     }
 }
-const validation = new Validation();
-exports.default = validation;
+exports.validation = new Validation();
