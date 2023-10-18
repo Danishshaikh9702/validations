@@ -40,5 +40,5 @@ class Validation implements ValidationInterface {
     }  
 
 }
-const validation=new Validation()
-export default validation 
+export const validation=new Validation()
+ 

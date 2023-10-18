@@ -1,5 +1,5 @@
 // Import the Validation class
-import validation  from './index'; // Update the import path to match your project structure
+import {validation}  from './index'; // Update the import path to match your project structure
 
 // Create an instance of the Validation class
 
